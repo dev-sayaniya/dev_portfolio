@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Attendance Logs</title>
+  <link rel="stylesheet" href="logs.css" />
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">Attendance Tracking System</div>
+      <ul class="nav-links">
+        <li><a href="./home.html">Home</a></li>
+        <li><a href="./management.html">User Management</a></li>
+        <li><a href="./profile_page.html">Profile</a></li>
+        <li><a href="./logout.html">Logout</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="main-content">
+    <h2 class="page-title">📋 Attendance Logs</h2>
+    <p class="subtitle">View and manage real-time attendance logs of students.</p>
+
+    <div class="logs-container">
+      <table class="logs-table">
+        <thead>
+          <tr>
+            <th>Log ID</th>
+            <th>Student Name</th>
+            <th>Date</th>
+            <th>Check-In</th>
+            <th>Check-Out</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>LOG101</td>
+            <td>Rudra Lad</td>
+            <td>2025-04-14</td>
+            <td>09:00 AM</td>
+            <td>05:00 PM</td>
+            <td class="status present">Present</td>
+          </tr>
+          <tr>
+            <td>LOG102</td>
+            <td>Dev</td>
+            <td>2025-04-14</td>
+            <td>--</td>
+            <td>--</td>
+            <td class="status absent">Absent</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2025 Attendance Tracking System. All rights reserved.</p>
+  </footer>
+</body>
+</html>
